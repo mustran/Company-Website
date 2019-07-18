@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+}
+
+.image{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: bottom;
+    place-items: center;
+}
+
+
+.text{
+    display: grid;
+}
+.awsTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin: 0;
+}
+.fom{
+    padding: 10px;
+    justify-self: center;
+    background-color: rgba(0, 0, 0, 0.40);
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.services{
+    margin: auto 200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+}
+
+.services > * {
+    margin: 20px;
+    /* border: 1px solid red; */
+    text-align: center;
+    
+}
+
+.servicesWrapper{
+    background-color: rgb(52,122,182);
+    color: white;
+}
+
+.ourServices{
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+
+i{
+    color: rgb(52,122,182);
+    padding: 20px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.learnMore{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: none;
+    color: grey;
+}
+
+.centered{
+    display: grid;
+    background-image: url(img/callout.jpg);
+    grid-template-rows: 400px;
+    /* background-size: cover; */
+    background-position: center;
+    place-items: center;
+}
+
+.vert{
+    font-size: 50px;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.ourWorkWrapper{
+    display: grid;
+    justify-content: center;
+}
+
+.ourWork{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    
+}
+
+.ow{
+    text-align: center;
+}
+
+.buttonsWrapper{
+    padding-top: 30px;
+    display: grid;
+    background-color: rgb(52,122,182);
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+}
+
+.buttons > * {
+    flex: 1;
+    padding: 20px;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.btn1{
+    color: grey;
+}
+
+.btn2{
+    background-color: rgba(9, 14, 92, 0.65);
+    border: 0;
+    color: white;
+}
+
+.buttonsWrapper > h1{
+    color: white;
+    font-size: 40px;
+    font-family: arial;
+}
+
+.preview{
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr;
+}
+
+.map iframe{
+    width: 100%;
+    height: 500px;
+}
+
+.location{
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+    color: grey;
+    
+}
+
+.text{
+    text-align: center;
+}
